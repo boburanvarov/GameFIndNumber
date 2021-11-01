@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awecome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+    <title>Игра Найти Номер</title>
+</head>
+
+<body>
+
+    <h1>Найти Номер</h1>
+    <div id="chance">
+        <i class="fas fa-heart "></i>
+        <i class="fas fa-heart "></i>
+        <i class="fas fa-heart "></i>
+        <div class="game-over">
+            <h4 id="chanceText"></h4>
+            <button class="exit">
+                <i class="fas fa-sign-out-alt">Выход </i></button>
+            <button class="restart">Рестарт
+                <i class="fas fa-sync-alt"></i>
+            </button>
+
+        </div>
+    </div>
+
+    <input type="text" placeholder="from 1 to 10">
+
+    <button class="play">Находить</button>
+    <button class="restart">Рестарт</button>
+    <h3 id="out">Намекать</h3>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
